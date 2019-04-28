@@ -1,0 +1,37 @@
+<html>
+<title>FlowerBot</title>
+<!-- stylesheets -->
+<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/yeti/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="{{ url_for('static', filename='main.css') }}" rel="stylesheet">
+
+<body>
+
+
+    <center>
+    <h1>FlowerBot - Daisy, Rose or Sunflowers?</h1>
+
+	<h2>Upload a flower image</h2>
+    <br>
+    <form action="" method=post enctype=multipart/form-data>
+      <input type=file name=file>
+      <input type=submit value=Upload>
+    </form>
+
+    <h2>Results</h2>
+
+    <br>
+    <table class="table" id="results-table">
+        <tr>
+          <th align="right">Image</th>
+          <th>                                                </th>
+          <th align="right">Prediction</th>
+        </tr>
+		<tr>
+          {% block content %}{% endblock %}
+        </tr>
+    </table>
+    </center>
+</body>
+
+</html>
+ 
