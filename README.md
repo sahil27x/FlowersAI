@@ -2,6 +2,7 @@
 - A powerful image classifier trained on CNN.
 - The app will predict if the image consist of daisy, rose or sunflower.
 - Modules used - Keras, Flask, Pillow, Numpy & CV2.
+- Dataset - https://www.kaggle.com/alxmamaev/flowers-recognition
 
 - Demo-
 
