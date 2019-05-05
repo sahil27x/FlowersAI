@@ -8,6 +8,7 @@
 2. Numpy
 3. Pillow
 4. Keras
+5. Flask
 
 - Run python app.py (flower_bot folder)
 
