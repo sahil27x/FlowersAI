@@ -3,7 +3,7 @@
 - The app will predict if the image consist of daisy, rose or sunflower.
 - Modules used - Keras, Flask, Pillow, Numpy & CV2.
 - Dataset - https://www.kaggle.com/sahil27x/flower-dataset
-- library used-
+- Library used-
 1. cv2
 2. Numpy
 3. Pillow
